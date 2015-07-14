@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'cli_logger'
+
+CliLogger.current_level = :debug
+# CliLogger.set_options(:disable_spinner, :disable_progress_bar)
+
+CliLogger.error('Error') do
+  CliLogger.warning('Warning') do |pb|
+    CliLogger.info('Info') do
+      3.times do
+        CliLogger.debug('test')
+        sleep 0.4
+      end
+      sleep 0.4
+    end
+
+    (1..10).each do |tick|
+      sleep 0.4
+      CliLogger.debug("Step #{tick}")
+      pb.progress(tick.to_f / 10) if pb
+    end
+  end
+end
