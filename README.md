@@ -3,6 +3,8 @@
 ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 [![Build Status](https://travis-ci.org/tmaczukin/cli_logger.svg)](https://travis-ci.org/tmaczukin/cli_logger)
 
+Another loggerm gem for ruby based CLI applications
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,10 +20,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install cli_logger
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
