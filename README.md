@@ -1,6 +1,7 @@
 # CliLogger
 
 ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+i[![Build Status](https://travis-ci.org/tmaczukin/cli_logger.svg)](https://travis-ci.org/tmaczukin/cli_logger)
 
 ## Installation
 
