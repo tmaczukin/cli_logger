@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CliLogger::VERSION
   spec.authors       = ['Tomasz Maczukin']
   spec.email         = ['tomasz@maczukin.pl']
-
-  spec.summary       = 'TODO: Write a short summary, because Rubygems requires one.'
-  spec.description   = 'TODO: Write a longer description or delete this line.'
+  spec.license       = 'MIT'
+  spec.summary       = 'Another loggerm gem for ruby based CLI applications'
   spec.homepage      = 'https://github.com/tmaczukin/cli_logger'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(/^spec/) }
